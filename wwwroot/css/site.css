@@ -46,6 +46,43 @@ main {
   margin: auto 0;
 }
 
+    main label {
+        width: 100%;
+        margin-top: 1rem;
+        display: block;
+        font-size: 1rem;
+    }
+
+    main input:not([type="submit"]) {
+        width: 50%;
+        padding: 1rem 1.2rem;
+        font-size: 1.2rem;
+        border-radius: 0.5rem;
+        border: 1px solid silver;
+        outline:none;
+        margin-top: 0.7rem;
+    }
+    main input[type="submit"] {
+        width: 20%;
+        padding: 1rem 0;
+        text-align: center;
+        border-radius: 0.5rem;
+        border: 0;
+        margin-top:0.7rem;
+        background: #ff6a00;
+        font-weight: bold;
+        color: #833904;
+        cursor: pointer;
+    }
+    main input[type="submit"]:hover {
+        background: #d96614;
+    }
+    main form span {
+        color: #ff0000;
+        font-weight: bold;
+        display: block;
+        margin: 5px 0;
+    }
 footer {
   width: 100%;
   margin-top: 15rem;
